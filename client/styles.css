@@ -1,5 +1,5 @@
 body {
-  background: #ddd;
+  background:lightcyan;
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -7,9 +7,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-nav {
-	border-bottom: 2px solid orange;
-}
 
 ol {
 	padding-left: 0;
@@ -38,10 +35,15 @@ img {
 }
 
 button{
-	background-color:yellow;
+	background-color:white;
 	font-size: 18px;
 
 }
 table, th,td{
 	border: 1px solid;
+}
+
+#flex-container{
+	flex-direction: column;
+
 }
